@@ -1,0 +1,13 @@
+include:
+  - project: "ci/templates/node"
+    ref: master
+    file:
+      - "node/stucco-docker.yml"
+
+deploy_develop:
+  rules:
+    - when: never
+
+deploy_staging:
+  rules:
+    - when: never

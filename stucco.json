@@ -1,0 +1,150 @@
+{
+    "resolvers": {
+        "Query.user": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "Query.public": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "Query.admin": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "Mutation.admin": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "Mutation.public": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "PublicMutation.register": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "PublicMutation.verifyEmail": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "PublicQuery.login": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "Mutation.user": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "LoginQuery.password": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "LoginQuery.refreshToken": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "LoginQuery.provider": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "LoginQuery.requestForForgotPassword": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "LoginQuery.changePasswordWithToken": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "LoginQuery.getGoogleOAuthLink": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "ProviderLoginQuery.google": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "OrderOps.update": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "OrderOps.delete": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "UserQuery.me": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "UserQuery.myOrders": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "UserQuery.orderDetails": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "UserMutation.orderOps": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "UserMutation.sendOrder": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "UserMutation.saveDraft": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "AdminMutation.addOrder": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "UserQuery.myDrafts": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "UserMutation.editUser": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        },
+        "AdminQuery.orders": {
+            "resolve": {
+                "name": "lib/index"
+            }
+        }
+    },
+    "azureOpts": {
+        "webhooks": [
+            "webhook/Mutation/webhook"
+        ]
+    },
+    "requestTimeout": 6000
+}
